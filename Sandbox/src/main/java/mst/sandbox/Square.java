@@ -1,4 +1,4 @@
-package mst.sandbox;
+package mst.addressbook;
 
 public class Square {
     public double l;

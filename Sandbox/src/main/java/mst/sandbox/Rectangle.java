@@ -1,4 +1,4 @@
-package mst.sandbox;
+package mst.addressbook;
 
 public class Rectangle {
     public double a;

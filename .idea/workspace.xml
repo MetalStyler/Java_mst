@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bff49d2-c050-4361-a4c7-eb7408ed6ded" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Addressbook_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Addressbook_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Addressbook_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Addressbook_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Addressbook/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/MyFirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/MyFirstProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Square.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Sandbox/.gradle/" />
     <ignored path="$PROJECT_DIR$/Sandbox/build/" />
@@ -68,7 +71,7 @@
     <session id="-33311122">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -78,28 +81,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="4" />
+          <entry key="gradle" value="6" />
           <entry key="gradlew" value="3" />
-          <entry key="java" value="4" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="4" />
+          <entry key="Groovy" value="6" />
+          <entry key="JAVA" value="6" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="73" />
-          <entry key="java" value="884" />
+          <entry key="gradle" value="76" />
+          <entry key="java" value="891" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="73" />
-          <entry key="JAVA" value="884" />
+          <entry key="Groovy" value="76" />
+          <entry key="JAVA" value="891" />
         </counts>
       </usages-collector>
     </session>
@@ -107,53 +110,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/build.gradle">
+        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/MyFirstProgram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="185">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/test/java/mst/sandbox/SquareTests.java">
+        <entry file="file://$PROJECT_DIR$/Addressbook/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -696,13 +668,13 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/Addressbook" value="4600815586651" />
+        <entry key="$PROJECT_DIR$/Addressbook" value="4600831888986" />
         <entry key="$PROJECT_DIR$/Addressbook-web-tests" value="0" />
         <entry key="$PROJECT_DIR$/Addressbook-web-tests/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/Addressbook-web-tests/build.gradle" value="3327890660" />
         <entry key="$PROJECT_DIR$/Addressbook-web-tests/gradle/wrapper/gradle-wrapper.properties" value="2371942159" />
         <entry key="$PROJECT_DIR$/Addressbook/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/Addressbook/build.gradle" value="3327890660" />
+        <entry key="$PROJECT_DIR$/Addressbook/build.gradle" value="3557086543" />
         <entry key="$PROJECT_DIR$/Addressbook/gradle/wrapper/gradle-wrapper.properties" value="2371942159" />
         <entry key="$PROJECT_DIR$/Sandbox" value="4600295639617" />
         <entry key="$PROJECT_DIR$/Sandbox/.gradle" value="0" />
@@ -1220,7 +1192,7 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/Addressbook" value="IMPORT" />
+        <entry key="$PROJECT_DIR$/Addressbook" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/Addressbook-web-tests" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/Sandbox" value="RE_IMPORT" />
       </map>
@@ -1236,6 +1208,8 @@
         <option value="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/MyFirstProgram.java" />
         <option value="$PROJECT_DIR$/Sandbox/build.gradle" />
         <option value="$PROJECT_DIR$/Sandbox/src/test/java/mst/sandbox/SquareTests.java" />
+        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupCreationTests.java" />
+        <option value="$PROJECT_DIR$/Addressbook/build.gradle" />
       </list>
     </option>
   </component>
@@ -1288,42 +1262,11 @@
             </path>
             <path>
               <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mst" type="462c0819:PsiDirectoryNode" />
-              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1356,13 +1299,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SquareTests">
+  <component name="RunManager" selected="Gradle.GroupCreationTests">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mst.sandbox.MyFirstProgram" />
       <module name="Sandbox_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Addressbook" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests mst.addressbook.GroupCreationTests" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
     </configuration>
     <configuration name="SquareTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -1406,9 +1368,11 @@
       <item itemvalue="Application.MyFirstProgram" />
       <item itemvalue="Gradle.SquareTests" />
       <item itemvalue="Gradle.SquareTests.testArea" />
+      <item itemvalue="Gradle.GroupCreationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GroupCreationTests" />
         <item itemvalue="Gradle.SquareTests" />
         <item itemvalue="Gradle.SquareTests.testArea" />
         <item itemvalue="Application.MyFirstProgram" />
@@ -1429,18 +1393,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SquareTests - 2018.08.06 at 11h 08m 17s.xml">
-      <configuration name="SquareTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SquareTests - 2018.08.06 at 11h 11m 37s.xml">
-      <configuration name="SquareTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SquareTests - 2018.08.06 at 11h 17m 50s.xml">
-      <configuration name="SquareTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SquareTests - 2018.08.06 at 11h 17m 54s.xml">
-      <configuration name="SquareTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SquareTests - 2018.08.06 at 11h 18m 45s.xml">
       <configuration name="SquareTests" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -1459,19 +1411,30 @@
     <history-entry file="SquareTests - 2018.08.06 at 11h 25m 04s.xml">
       <configuration name="SquareTests" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="GroupCreationTests - 2018.08.09 at 13h 38m 23s.xml">
+      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GroupCreationTests - 2018.08.09 at 13h 39m 55s.xml">
+      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GroupCreationTests - 2018.08.09 at 13h 47m 51s.xml">
+      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GroupCreationTests - 2018.08.09 at 13h 55m 59s.xml">
+      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1479,7 +1442,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32925472" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32925472" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1496,13 +1459,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Sandbox/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/MyFirstProgram.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1529,16 +1485,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sandbox/src/test/java/mst/sandbox/SquareTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandbox/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/3.14.0/93de6f682174eb83ff790802a40366c4e3abd12/selenium-firefox-driver-3.14.0-sources.jar!/org/openqa/selenium/firefox/FirefoxDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
