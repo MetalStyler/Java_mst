@@ -1,12 +1,19 @@
 package mst.addressbook.AppManager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class HelperBase {
-    protected FirefoxDriver wd;
+//    protected FirefoxDriver wd;
+    protected ChromeDriver wd;
 
-    public HelperBase(FirefoxDriver wd) {
+//    public HelperBase(FirefoxDriver wd) {
+//        this.wd = wd;
+//    }
+
+    public HelperBase(ChromeDriver wd) {
         this.wd = wd;
     }
 
@@ -18,5 +25,14 @@ public class HelperBase {
         click(locator);
         wd.findElement(locator).clear();
         wd.findElement(locator).sendKeys(text);
+    }
+
+    public boolean isAlertPresent() {
+        try {
+            wd.switchTo().alert();
+            return true;
+        } catch (NoAlertPresentException e) {
+            return false;
+        }
     }
 }

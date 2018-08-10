@@ -2,11 +2,16 @@ package mst.addressbook.AppManager;
 
 import mst.addressbook.Model.GroupData;
 import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class GroupHelper extends HelperBase{
 
-    public GroupHelper(FirefoxDriver wd) {
+//    public GroupHelper(FirefoxDriver wd) {
+//        super(wd);
+//    }
+
+    public GroupHelper(ChromeDriver wd) {
         super(wd);
     }
 
@@ -34,5 +39,13 @@ public class GroupHelper extends HelperBase{
 
     public void selectGroup() {
         click(By.name("selected[]"));
+    }
+
+    public void initGroupModification() {
+        click(By.name("edit"));
+    }
+
+    public void submitGroupModification() {
+        click(By.name("update"));
     }
 }
