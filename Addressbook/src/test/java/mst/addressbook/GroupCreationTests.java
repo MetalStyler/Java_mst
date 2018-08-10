@@ -21,10 +21,6 @@ public class GroupCreationTests {
     public void setUp() throws Exception {
         wd = new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-    }
-    
-    @Test
-    public void GroupCreationTests() {
         wd.get("http://localhost/addressbook/group.php");
         wd.findElement(By.name("pass")).click();
         wd.findElement(By.name("pass")).clear();
@@ -33,8 +29,12 @@ public class GroupCreationTests {
         wd.findElement(By.name("user")).clear();
         wd.findElement(By.name("user")).sendKeys("admin");
         wd.findElement(By.xpath("//form[@id='LoginForm']/input[3]")).click();
+    }
+    
+    @Test
+    public void testGroupCreation() {
         wd.findElement(By.cssSelector("html")).click();
-        wd.findElement(By.linkText("Группы")).click();
+        wd.findElement(By.xpath("/html/body/div/div[3]/ul/li[3]/a")).click();
         wd.findElement(By.name("new")).click();
         wd.findElement(By.name("group_name")).click();
         wd.findElement(By.name("group_name")).clear();
