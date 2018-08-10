@@ -1,4 +1,4 @@
-package mst.addressbook;
+package mst.addressbook.Model;
 
 public class GroupData {
     private final String name;
