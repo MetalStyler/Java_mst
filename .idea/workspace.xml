@@ -79,50 +79,81 @@
         <counts>
           <entry key="gradle" value="7" />
           <entry key="gradlew" value="3" />
-          <entry key="java" value="7" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="7" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="10" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="76" />
-          <entry key="java" value="942" />
+          <entry key="java" value="994" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="76" />
-          <entry key="JAVA" value="942" />
+          <entry key="JAVA" value="994" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1456#1457#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1601#1602#0" expanded="true" />
-                <element signature="e#2106#2107#0" expanded="true" />
-                <element signature="e#2160#2161#0" expanded="true" />
-                <element signature="e#2121#2122#0" expanded="true" />
-                <element signature="e#2205#2206#0" expanded="true" />
-                <element signature="e#2176#2177#0" expanded="true" />
-                <element signature="e#2201#2202#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#2167#2168#0" expanded="true" />
+                <element signature="e#2221#2222#0" expanded="true" />
+                <element signature="e#2259#2260#0" expanded="true" />
+                <element signature="e#2343#2344#0" expanded="true" />
+                <element signature="e#2390#2391#0" expanded="true" />
+                <element signature="e#2415#2416#0" expanded="true" />
+                <element signature="e#2460#2461#0" expanded="true" />
+                <element signature="e#2517#2518#0" expanded="true" />
+                <element signature="e#2553#2554#0" expanded="true" />
+                <element signature="e#2614#2615#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupDeletionTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -1215,7 +1246,9 @@
         <option value="$PROJECT_DIR$/Sandbox/build.gradle" />
         <option value="$PROJECT_DIR$/Sandbox/src/test/java/mst/sandbox/SquareTests.java" />
         <option value="$PROJECT_DIR$/Addressbook/build.gradle" />
+        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/TestBase.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupCreationTests.java" />
+        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupDeletionTests.java" />
       </list>
     </option>
   </component>
@@ -1225,7 +1258,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -1274,45 +1307,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="addressbook" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mst" type="462c0819:PsiDirectoryNode" />
-              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1332,6 +1326,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="mst.sandbox" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mst.addressbook" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1345,7 +1342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.mst.addressbook.GroupCreationTests">
+  <component name="RunManager" selected="TestNG.GroupDeletionTests">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mst.sandbox.MyFirstProgram" />
       <module name="Sandbox_main" />
@@ -1410,26 +1407,7 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <module name="Addressbook_test" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mst.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mst.addressbook.GroupCreationTests" type="TestNG" factoryName="TestNG">
+    <configuration name="GroupCreationTests" type="TestNG" factoryName="TestNG">
       <module name="Addressbook_test" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mst.addressbook" />
@@ -1447,8 +1425,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupDeletionTests" type="TestNG" factoryName="TestNG">
+      <module name="Addressbook_test" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mst.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="mst.addressbook.GroupDeletionTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="Addressbook_test" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mst.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.mst.addressbook.GroupCreationTests" />
+      <item itemvalue="TestNG.GroupCreationTests" />
+      <item itemvalue="TestNG.GroupDeletionTests" />
       <item itemvalue="Application.MyFirstProgram" />
       <item itemvalue="Gradle.SquareTests" />
       <item itemvalue="Gradle.SquareTests.testArea" />
@@ -1477,24 +1492,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupCreationTests - 2018.08.09 at 14h 31m 47s.xml">
-      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.08.09 at 14h 33m 56s.xml">
-      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.08.09 at 14h 33m 57s.xml">
-      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.08.09 at 14h 43m 18s.xml">
-      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.08.09 at 15h 08m 44s.xml">
-      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.08.09 at 15h 54m 28s.xml">
-      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="mst_addressbook_GroupCreationTests - 2018.08.09 at 16h 31m 05s.xml">
       <configuration name="mst.addressbook.GroupCreationTests" configurationId="TestNG" />
     </history-entry>
@@ -1507,19 +1504,37 @@
     <history-entry file="mst_addressbook_GroupCreationTests - 2018.08.10 at 09h 15m 33s.xml">
       <configuration name="mst.addressbook.GroupCreationTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="mst_addressbook_GroupCreationTests - 2018.08.10 at 09h 31m 27s.xml">
+      <configuration name="mst.addressbook.GroupCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTests - 2018.08.10 at 09h 54m 28s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests - 2018.08.10 at 09h 55m 01s.xml">
+      <configuration name="GroupCreationTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GroupCreationTests - 2018.08.10 at 09h 55m 50s.xml">
+      <configuration name="GroupCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTests - 2018.08.10 at 09h 58m 15s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTests - 2018.08.10 at 09h 59m 18s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1594,23 +1609,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+            <element signature="e#2259#2260#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2390#2391#0" expanded="true" />
+            <element signature="e#2415#2416#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2614#2615#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
