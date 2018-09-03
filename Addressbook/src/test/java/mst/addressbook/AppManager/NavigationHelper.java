@@ -15,6 +15,18 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void gotoGroupPage() {
-       click(By.xpath("/html/body/div/div[3]/ul/li[3]/a"));
+        click(By.xpath("//li[@class='admin']/a"));
+    }
+
+    public void gotoContactPage() {
+        click(By.xpath("//*[@id=\"nav\"]/ul/li[1]/a"));
+    }
+
+    public void gotoContactCreationPage() {
+        click(By.xpath("//*[@id=\"nav\"]/ul/li[2]/a"));
+    }
+
+    public void skipContactAddressForm() {
+        click(By.xpath("//*[@id=\"content\"]/form/input[1]"));
     }
 }
