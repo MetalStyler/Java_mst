@@ -26,7 +26,6 @@ public class ApplicationManager {
         sessionHelper.login("admin", "secret");
     }
 
-
     public void stop() {
         wd.quit();
     }
@@ -42,4 +41,9 @@ public class ApplicationManager {
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
     }
+
+    public void confirmAllert() {
+        wd.switchTo().alert().accept();
+    }
+
 }

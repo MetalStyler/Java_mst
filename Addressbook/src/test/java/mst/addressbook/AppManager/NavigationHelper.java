@@ -29,4 +29,5 @@ public class NavigationHelper extends HelperBase {
     public void skipQuickAddForm() {
         click(By.xpath("//*[@id=\"content\"]/form/input[1]"));
     }
+
 }
