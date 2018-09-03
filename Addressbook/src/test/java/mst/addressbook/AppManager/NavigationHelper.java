@@ -26,7 +26,7 @@ public class NavigationHelper extends HelperBase {
         click(By.xpath("//*[@id=\"nav\"]/ul/li[2]/a"));
     }
 
-    public void skipContactAddressForm() {
+    public void skipQuickAddForm() {
         click(By.xpath("//*[@id=\"content\"]/form/input[1]"));
     }
 }
