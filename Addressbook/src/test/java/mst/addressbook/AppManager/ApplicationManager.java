@@ -1,5 +1,6 @@
 package mst.addressbook.AppManager;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -17,7 +18,7 @@ public class ApplicationManager {
     public void init() {
 //        wd = new FirefoxDriver();
         wd = new ChromeDriver();
-        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.get("http://localhost/addressbook");
         groupHelper = new GroupHelper(wd);
         contactHelper = new ContactHelper(wd);
@@ -25,6 +26,16 @@ public class ApplicationManager {
         sessionHelper = new SessionHelper(wd);
         sessionHelper.login("admin", "secret");
     }
+
+    public boolean isThereElements() {
+        if (wd.findElements(By.name("selected[]")).isEmpty()) {
+            return false;
+        }
+        else
+            { return true;
+            }
+        }
+
 
     public void stop() {
         wd.quit();
@@ -42,7 +53,7 @@ public class ApplicationManager {
         return navigationHelper;
     }
 
-    public void confirmAllert() {
+    public void confirmAlert() {
         wd.switchTo().alert().accept();
     }
 

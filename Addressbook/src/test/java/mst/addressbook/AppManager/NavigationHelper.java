@@ -22,12 +22,4 @@ public class NavigationHelper extends HelperBase {
         click(By.xpath("//*[@id=\"nav\"]/ul/li[1]/a"));
     }
 
-    public void gotoContactCreationPage() {
-        click(By.xpath("//*[@id=\"nav\"]/ul/li[2]/a"));
-    }
-
-    public void skipQuickAddForm() {
-        click(By.xpath("//*[@id=\"content\"]/form/input[1]"));
-    }
-
 }

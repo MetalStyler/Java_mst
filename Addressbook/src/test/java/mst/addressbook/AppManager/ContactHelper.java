@@ -2,7 +2,11 @@ package mst.addressbook.AppManager;
 
 import mst.addressbook.Model.ContactData;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContactHelper extends HelperBase{
 
@@ -59,4 +63,30 @@ public class ContactHelper extends HelperBase{
         return wd.findElements(By.name("selected[]")).size();
     }
 
+    public void initContactCreation() {
+        click(By.xpath("//*[@id=\"nav\"]/ul/li[2]/a"));
+    }
+
+    public void skipQuickAddForm() {
+        click(By.xpath("//*[@id=\"content\"]/form/input[1]"));
+    }
+
+    public void createContact(ContactData contact) {
+        initContactCreation();
+        skipQuickAddForm();
+        fillContactForm(contact);
+        submitContactCreation();
+    }
+
+    public List<ContactData> getContactList() {
+        List<ContactData> contacts = new ArrayList<ContactData>();
+        List<WebElement> elements = wd.findElements(By.name("selected[]"));
+        for (WebElement element : elements) {
+            String name = element.getText();
+            ContactData contact = new ContactData(name, null, null, null, null, null, null, null, null, null,
+                    null, null, null, null, null, null, null, null);
+            contacts.add(contact);
+        }
+        return contacts;
+    }
 }

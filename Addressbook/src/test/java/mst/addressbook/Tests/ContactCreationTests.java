@@ -4,15 +4,15 @@ import mst.addressbook.Model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class ContactCreationTests extends TestBase {
 
     @Test
     public void testContactCreation() {
         app.getNavigationHelper().gotoContactPage();
-        int before = app.getContactHelper().getContactCount();
-        app.getNavigationHelper().gotoContactCreationPage();
-        app.getNavigationHelper().skipQuickAddForm();
-        app.getContactHelper().fillContactForm(new ContactData(
+        List<ContactData> before = app.getContactHelper().getContactList();
+        app.getContactHelper().createContact(new ContactData(
                 "test_firstname",
                 "test_middlename",
                 "test_lastname",
@@ -31,9 +31,8 @@ public class ContactCreationTests extends TestBase {
                 "test_address2",
                 "test_homephone2",
                 "test_notes"));
-        app.getContactHelper().submitContactCreation();
-        int after = app.getContactHelper().getContactCount();
-        Assert.assertEquals(after, before + 1);
+        List<ContactData> after = app.getContactHelper().getContactList();
+        Assert.assertEquals(after.size(), before.size() + 1);
     }
 
 }

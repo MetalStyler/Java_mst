@@ -4,12 +4,35 @@ import mst.addressbook.Model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class ContactModificationTests extends TestBase {
 
     @Test
     public void testContactModification() {
         app.getNavigationHelper().gotoContactPage();
-        int before = app.getContactHelper().getContactCount();
+        if (! app.isThereElements()) {
+            app.getContactHelper().createContact(new ContactData(
+                    "test_firstname_for_mod",
+                    "test_middlename_for_mod",
+                    "test_lastname_for_mod",
+                    "test_nickname_for_mod",
+                    "test_title_for_mod",
+                    "test_company_for_mod",
+                    "test_address_for_mod",
+                    "test_homephone_for_mod",
+                    "test_mobilephone_for_mod",
+                    "test_workphone_for_mod",
+                    "test_fax_for_mod",
+                    "test_for_mod@email.com",
+                    "test_for_mod@email2.com",
+                    "test_for_mod@email3.com",
+                    "test_homepage_for_mod.ru",
+                    "test_address2_for_mod",
+                    "test_homephone2_for_mod",
+                    "test_notes_for_mod"));
+        }
+        List<ContactData> before = app.getContactHelper().getContactList();
         app.getContactHelper().initContactModification();
         app.getContactHelper().fillContactForm(new ContactData(
                 "test_firstname_modified",
@@ -31,7 +54,7 @@ public class ContactModificationTests extends TestBase {
                 "test_homephone2_modified",
                 "test_notes_modified"));
         app.getContactHelper().submitContactModification();
-        int after = app.getContactHelper().getContactCount();
-        Assert.assertEquals(after, before);
+        List<ContactData> after = app.getContactHelper().getContactList();
+        Assert.assertEquals(after.size(), before.size());
     }
 }
