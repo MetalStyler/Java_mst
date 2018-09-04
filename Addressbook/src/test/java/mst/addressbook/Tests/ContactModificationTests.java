@@ -1,6 +1,7 @@
 package mst.addressbook.Tests;
 
 import mst.addressbook.Model.ContactData;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ContactModificationTests extends TestBase {
@@ -8,6 +9,7 @@ public class ContactModificationTests extends TestBase {
     @Test
     public void testContactModification() {
         app.getNavigationHelper().gotoContactPage();
+        int before = app.getContactHelper().getContactCount();
         app.getContactHelper().initContactModification();
         app.getContactHelper().fillContactForm(new ContactData(
                 "test_firstname_modified",
@@ -29,5 +31,7 @@ public class ContactModificationTests extends TestBase {
                 "test_homephone2_modified",
                 "test_notes_modified"));
         app.getContactHelper().submitContactModification();
+        int after = app.getContactHelper().getContactCount();
+        Assert.assertEquals(after, before);
     }
 }

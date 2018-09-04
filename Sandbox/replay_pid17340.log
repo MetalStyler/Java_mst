@@ -1,0 +1,114 @@
+JvmtiExport can_access_local_variables 1
+JvmtiExport can_hotswap_or_post_breakpoint 1
+JvmtiExport can_post_on_exceptions 1
+# 285 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 479277 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2169 1 24784 0 -1
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/lang/String <init> ([CII)V 2057 1 5442 0 896
+ciMethod java/lang/String <init> ([CZ)V 2049 1 12590 0 64
+ciMethod java/lang/String length ()I 4097 1 177125 0 0
+ciMethod java/lang/String charAt (I)C 4097 1 1119273 0 192
+ciMethod java/lang/String getChars ([CI)V 2065 1 5429 0 0
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2233 11073 3119 0 -1
+ciMethod java/lang/String equalsIgnoreCase (Ljava/lang/String;)Z 2065 1 5436 0 1952
+ciMethod java/lang/String regionMatches (ZILjava/lang/String;II)Z 1593 625 5325 0 2752
+ciMethod java/lang/String hashCode ()I 2809 32769 1064 0 352
+ciMethod java/lang/String lastIndexOf (I)I 2049 1 33335 0 352
+ciMethod java/lang/String lastIndexOf (II)I 825 41721 900 0 352
+ciMethod java/lang/String lastIndexOfSupplementary (II)I 0 0 1 0 -1
+ciMethod java/lang/String substring (II)Ljava/lang/String; 2081 1 6465 0 1248
+ciMethod java/lang/String concat (Ljava/lang/String;)Ljava/lang/String; 2057 1 5429 0 1024
+ciMethod java/lang/String replace (CC)Ljava/lang/String; 985 49401 826 0 1280
+ciMethod java/lang/ClassLoader defineClass (Ljava/lang/String;[BIILjava/security/ProtectionDomain;)Ljava/lang/Class; 2153 1 6482 0 -1
+ciMethod java/lang/ClassLoader definePackage (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;)Ljava/lang/Package; 961 1 613 0 0
+ciMethod java/lang/ClassLoader getPackage (Ljava/lang/String;)Ljava/lang/Package; 2057 1 8493 0 9056
+ciMethod java/lang/System nanoTime ()J 3073 1 384 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/security/SecureClassLoader defineClass (Ljava/lang/String;[BIILjava/security/CodeSource;)Ljava/lang/Class; 2153 1 6510 0 0
+ciMethod java/security/SecureClassLoader defineClass (Ljava/lang/String;Ljava/nio/ByteBuffer;Ljava/security/CodeSource;)Ljava/lang/Class; 0 0 1 0 -1
+ciMethod java/security/SecureClassLoader getProtectionDomain (Ljava/security/CodeSource;)Ljava/security/ProtectionDomain; 2153 1 6441 0 -1
+ciMethod java/lang/ref/SoftReference <init> (Ljava/lang/Object;)V 1729 1 5474 0 -1
+ciMethod java/lang/ref/SoftReference get ()Ljava/lang/Object; 2057 1 19740 0 -1
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/Thread interrupt ()V 0 0 1 0 -1
+ciMethod java/lang/Thread interrupted ()Z 3177 1 6888 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/io/ByteArrayInputStream <init> ([B)V 161 1 167 0 -1
+ciMethod java/io/InputStream read ([BII)I 9 2417 1 0 -1
+ciMethod java/io/InputStream close ()V 0 0 1 0 -1
+ciMethod java/net/URLClassLoader getAndVerifyPackage (Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)Ljava/lang/Package; 3177 1 5797 0 0
+ciMethod java/net/URLClassLoader definePackageInternal (Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)V 2153 1 5793 0 0
+ciMethod java/net/URLClassLoader defineClass (Ljava/lang/String;Lsun/misc/Resource;)Ljava/lang/Class; 1129 1 5801 0 0
+ciMethod java/net/URLClassLoader definePackage (Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)Ljava/lang/Package; 961 1 567 0 0
+ciMethod java/net/URLClassLoader isSealed (Ljava/lang/String;Ljava/util/jar/Manifest;)Z 2049 1 5230 0 0
+ciMethod java/net/URLClassLoader access$000 (Ljava/net/URLClassLoader;)Lsun/misc/URLClassPath; 1097 1 137 0 0
+ciMethod java/net/URLClassLoader access$100 (Ljava/net/URLClassLoader;Ljava/lang/String;Lsun/misc/Resource;)Ljava/lang/Class; 1129 1 5796 0 0
+ciMethod java/util/jar/Manifest <init> (Ljava/io/InputStream;)V 161 1 157 0 -1
+ciMethod java/util/jar/Manifest getMainAttributes ()Ljava/util/jar/Attributes; 1025 1 128 0 0
+ciMethod java/util/jar/Manifest getEntries ()Ljava/util/Map; 1033 1 129 0 0
+ciMethod java/util/jar/Manifest getAttributes (Ljava/lang/String;)Ljava/util/jar/Attributes; 2961 1 5911 0 0
+ciMethod java/security/CodeSource <init> (Ljava/net/URL;[Ljava/security/CodeSigner;)V 2145 1 6414 0 96
+ciMethod java/lang/Character toLowerCase (C)C 2065 1 23262 0 -1
+ciMethod java/lang/Character toUpperCase (C)C 2049 1 14637 0 -1
+ciMethod java/util/Comparator compare (Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2121 1 51820 0 0
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2065 1 19181 0 864
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2097 9 12827 0 672
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 937 1 16039 0 -1
+ciMethod java/lang/Math min (II)I 3633 1 95479 0 -1
+ciMethod java/util/Arrays copyOf ([BI)[B 2057 1 21389 0 -1
+ciMethod java/util/Arrays copyOf ([CI)[C 1081 1 34508 0 0
+ciMethod java/util/Arrays copyOfRange ([CII)[C 2057 1 5428 0 512
+ciMethodData java/lang/Object <init> ()V 2 479277 orig 264 88 115 223 80 0 0 0 0 128 4 249 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 105 113 58 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/IllegalArgumentException <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethodData java/lang/String hashCode ()I 2 20509 orig 264 88 115 223 80 0 0 0 0 80 80 249 20 0 0 0 0 152 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 73 22 0 0 233 0 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0x10d 0x78 0x1bc 0xe0007 0x4 0x58 0x1b8 0x1e0007 0x1b8 0x38 0x3fe0 0x2d0003 0x3fe0 0xffffffffffffffe0 oops 0
+ciMethod sun/misc/URLClassPath getResource (Ljava/lang/String;Z)Lsun/misc/Resource; 1801 16385 1728 0 4224
+ciMethod sun/misc/URLClassPath getLookupCache (Ljava/lang/String;)[I 1849 1 1835 0 -1
+ciMethod sun/misc/URLClassPath getNextLoader ([II)Lsun/misc/URLClassPath$Loader; 2569 1 10372 0 -1
+ciMethodData java/lang/String <init> ([CII)V 2 5442 orig 264 88 115 223 80 0 0 0 0 240 49 249 20 0 0 0 0 80 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 9 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 30 0x10002 0x1441 0x50007 0x1441 0x30 0x0 0xd0002 0x0 0x120007 0x1437 0x70 0xa 0x160007 0xa 0x30 0x0 0x1e0002 0x0 0x250007 0x0 0x20 0xa 0x370007 0x1437 0x30 0x0 0x410002 0x0 0x4b0002 0x1437 oops 0
+ciMethodData java/util/Arrays copyOfRange ([CII)[C 2 5428 orig 264 88 115 223 80 0 0 0 0 192 219 10 21 0 0 0 0 120 2 0 0 240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 153 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 32 1 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 36 0x50007 0x1433 0x100 0x0 0x100002 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x190005 0x0 0x0 0x0 0x0 0x0 0x1d0005 0x0 0x0 0x0 0x0 0x0 0x200005 0x0 0x0 0x0 0x0 0x0 0x230002 0x0 0x360002 0x1433 0x390002 0x1433 oops 0
+ciMethod java/net/URLClassLoader$1 run ()Ljava/lang/Class; 2057 1 18689 0 -1
+ciMethodData java/lang/String length ()I 2 177125 orig 264 88 115 223 80 0 0 0 0 176 60 249 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 41 143 21 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod sun/misc/URLClassPath$JarLoader access$600 (Lsun/misc/URLClassPath$JarLoader;)Ljava/net/URL; 1025 1 128 0 0
+ciMethod sun/misc/URLClassPath$JarLoader access$700 (Lsun/misc/URLClassPath$JarLoader;)Ljava/util/jar/JarFile; 1025 1 128 0 0
+ciMethod sun/misc/URLClassPath$Loader getBaseURL ()Ljava/net/URL; 1025 1 128 0 -1
+ciMethod sun/misc/URLClassPath$Loader getResource (Ljava/lang/String;Z)Lsun/misc/Resource; 0 0 1 0 -1
+ciMethod java/util/zip/ZipFile getInputStream (Ljava/util/zip/ZipEntry;)Ljava/io/InputStream; 2049 1 6085 0 -1
+ciMethodData java/util/Arrays copyOf ([CI)[C 2 34508 orig 264 88 115 223 80 0 0 0 0 248 211 10 21 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135 0 0 0 41 50 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 11 0 0 0 0 0 data 4 0xb0002 0x8645 0xe0002 0x8645 oops 0
+ciMethod java/util/jar/JarFile getManifest ()Ljava/util/jar/Manifest; 1073 1 5254 0 64
+ciMethod java/util/jar/JarFile getManifestFromReference ()Ljava/util/jar/Manifest; 1161 1 5276 0 2560
+ciMethod java/util/jar/JarFile getBytes (Ljava/util/zip/ZipEntry;)[B 889 1 469 0 -1
+ciMethod java/util/jar/JarFile getManEntry ()Ljava/util/jar/JarEntry; 769 1 391 0 -1
+ciMethod sun/misc/PerfCounter add (J)V 2049 1 22343 0 -1
+ciMethod sun/misc/PerfCounter addElapsedTimeFrom (J)V 1521 1 9947 0 608
+ciMethod sun/misc/PerfCounter getReadClassBytesTime ()Lsun/misc/PerfCounter; 2153 1 5803 0 0
+ciMethod java/util/jar/JarEntry getCodeSigners ()[Ljava/security/CodeSigner; 0 0 1 0 -1
+ciMethod java/util/jar/Attributes get (Ljava/lang/Object;)Ljava/lang/Object; 2057 1 10010 0 0
+ciMethod java/util/jar/Attributes getValue (Ljava/util/jar/Attributes$Name;)Ljava/lang/String; 2049 1 9929 0 0
+ciMethod java/util/jar/Attributes$Name equals (Ljava/lang/Object;)Z 2065 1 1809 0 0
+ciMethod java/util/jar/Attributes$Name hashCode ()I 2065 1 5390 0 800
+ciMethod sun/misc/ASCIICaseInsensitiveComparator compare (Ljava/lang/String;Ljava/lang/String;)I 1065 22057 1357 0 896
+ciMethod sun/misc/ASCIICaseInsensitiveComparator lowerCaseHashCode (Ljava/lang/String;)I 561 9665 1033 0 0
+ciMethod sun/misc/ASCIICaseInsensitiveComparator isUpper (I)Z 2201 1 16837 0 -1
+ciMethod sun/misc/ASCIICaseInsensitiveComparator toLower (I)I 2201 1 16837 0 0
+ciMethod sun/misc/ASCIICaseInsensitiveComparator compare (Ljava/lang/Object;Ljava/lang/Object;)I 2065 1 1813 0 0
+ciMethod java/util/jar/JarVerifier <init> ([B)V 161 1 157 0 -1
+ciMethod sun/misc/URLClassPath$JarLoader$2 getCodeSourceURL ()Ljava/net/URL; 3089 1 5506 0 96
+ciMethod sun/misc/URLClassPath$JarLoader$2 getManifest ()Ljava/util/jar/Manifest; 3089 1 5506 0 192
+ciMethod sun/misc/URLClassPath$JarLoader$2 getCodeSigners ()[Ljava/security/CodeSigner; 4097 1 5648 0 2080
+ciMethod sun/misc/Resource getCodeSourceURL ()Ljava/net/URL; 0 0 1 0 -1
+ciMethod sun/misc/Resource getContentLength ()I 0 0 1 0 -1
+ciMethod sun/misc/Resource cachedInputStream ()Ljava/io/InputStream; 2065 1 12999 0 -1
+ciMethod sun/misc/Resource getBytes ()[B 2153 3897 6483 0 3008
+ciMethod sun/misc/Resource getByteBuffer ()Ljava/nio/ByteBuffer; 2153 1 6489 0 0
+ciMethod sun/misc/Resource getManifest ()Ljava/util/jar/Manifest; 0 0 1 0 -1
+ciMethod sun/misc/Resource getCodeSigners ()[Ljava/security/CodeSigner; 65 1 8 0 0
+ciMethod java/lang/Package isSealed ()Z 2049 1 5230 0 0
+ciMethod java/lang/Package isSealed (Ljava/net/URL;)Z 0 0 1 0 -1
+ciMethod java/lang/Package <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/lang/ClassLoader;)V 2017 1 613 0 -1
+ciMethod java/lang/Package getSystemPackage (Ljava/lang/String;)Ljava/lang/Package; 593 1 1189 0 -1
+ciMethod sun/nio/ByteBuffered getByteBuffer ()Ljava/nio/ByteBuffer; 0 0 1 0 -1
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 51820 orig 264 88 115 223 80 0 0 0 0 96 188 7 21 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 0 0 25 75 6 0 1 0 0 0 180 132 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 224 1 0 0 0 0 0 data 13 0x1e007 0xc95e 0x38 0x7 0x50003 0x7 0x48 0x90005 0x4df9 0x31667d0 0x7fc 0x3239ee0 0x7369 oops 2
