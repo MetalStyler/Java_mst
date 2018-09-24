@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bff49d2-c050-4361-a4c7-eb7408ed6ded" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Addressbook/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ContactHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Addressbook_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Addressbook_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Addressbook_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Addressbook_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Addressbook/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/GroupHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactModificationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Model/GroupData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupDeletionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupModificationTests.java" afterDir="false" />
     </list>
@@ -26,6 +26,9 @@
     <ignored path="$PROJECT_DIR$/Addressbook/.gradle/" />
     <ignored path="$PROJECT_DIR$/Addressbook/build/" />
     <ignored path="$PROJECT_DIR$/Addressbook/out/" />
+    <ignored path="$PROJECT_DIR$/Mantis/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Mantis/build/" />
+    <ignored path="$PROJECT_DIR$/Mantis/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,9 @@
     <projectState path="$PROJECT_DIR$/Addressbook-web-tests">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/Mantis">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/Sandbox">
       <ProjectState />
     </projectState>
@@ -56,17 +62,23 @@
         <task path="$PROJECT_DIR$/Sandbox">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/Addressbook">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Sandbox" type="f1a62948:ProjectNode" />
+                <item name="Addressbook" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mantis" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Sandbox" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -79,8 +91,9 @@
     <session id="-33311122">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -88,63 +101,59 @@
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.58" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Collections" value="1" />
-          <entry key="bat" value="1" />
-          <entry key="gradle" value="9" />
-          <entry key="gradlew" value="4" />
-          <entry key="java" value="77" />
+          <entry key="bat" value="2" />
+          <entry key="gradle" value="12" />
+          <entry key="gradlew" value="6" />
+          <entry key="java" value="85" />
           <entry key="log" value="2" />
+          <entry key="properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Groovy" value="9" />
-          <entry key="JAVA" value="77" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Groovy" value="12" />
+          <entry key="JAVA" value="85" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="gradle" value="77" />
-          <entry key="java" value="5638" />
+          <entry key="gradle" value="267" />
+          <entry key="java" value="6389" />
+          <entry key="properties" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="77" />
-          <entry key="JAVA" value="5638" />
+          <entry key="Groovy" value="267" />
+          <entry key="JAVA" value="6389" />
           <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Properties" value="112" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactCreationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="34" column="61" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactDeletionTests.java">
+        <entry file="file://$PROJECT_DIR$/Mantis/src/test/java/mst/mantis/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="39" column="10" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="204">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,72 +162,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactModificationTests.java">
+        <entry file="file://$PROJECT_DIR$/Mantis/src/test/java/mst/mantis/AppManager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+            <state relative-caret-position="612">
+              <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/GroupHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1238#1239#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1489#1500#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ContactHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#2132#2133#0" expanded="true" />
-                <element signature="e#2194#2195#0" expanded="true" />
-                <element signature="e#2675#2688#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupModificationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupDeletionTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
+                <element signature="e#1411#1412#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
+                <element signature="e#1491#1492#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -240,14 +193,14 @@
     <option name="myGradleHomes">
       <map>
         <entry key="$PROJECT_DIR$/Addressbook" value="C:\Users\MetalStyler\.gradle\wrapper\dists\gradle-4.9-all\491wbe0x5d54n9cojs2p0zv90\gradle-4.9" />
-        <entry key="$PROJECT_DIR$/Addressbook-web-tests" value="C:\Users\MetalStyler\.gradle\wrapper\dists\gradle-4.9-all\491wbe0x5d54n9cojs2p0zv90\gradle-4.9" />
+        <entry key="$PROJECT_DIR$/Mantis" value="C:\Users\MetalStyler\.gradle\wrapper\dists\gradle-4.9-all\491wbe0x5d54n9cojs2p0zv90\gradle-4.9" />
         <entry key="$PROJECT_DIR$/Sandbox" value="C:\Users\MetalStyler\.gradle\wrapper\dists\gradle-4.9-all\491wbe0x5d54n9cojs2p0zv90\gradle-4.9" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
         <entry key="$PROJECT_DIR$/Addressbook" value="4.9" />
-        <entry key="$PROJECT_DIR$/Addressbook-web-tests" value="4.9" />
+        <entry key="$PROJECT_DIR$/Mantis" value="4.9" />
         <entry key="$PROJECT_DIR$/Sandbox" value="4.9" />
       </map>
     </option>
@@ -272,15 +225,15 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="Addressbook-web-tests" />
-              <option name="path" value="$PROJECT_DIR$/Addressbook-web-tests" />
+              <option name="name" value="Mantis" />
+              <option name="path" value="$PROJECT_DIR$/Mantis" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="Addressbook-web-tests" />
-                <option name="path" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="name" value="Mantis" />
+                <option name="path" value="$PROJECT_DIR$/Mantis" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -446,142 +399,142 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/Addressbook-web-tests">
+        <entry key="$PROJECT_DIR$/Mantis">
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'Addressbook-web-tests'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="description" value="Displays the components produced by root project 'Mantis'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'Addressbook-web-tests'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="description" value="Displays the sub-projects of root project 'Mantis'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'Addressbook-web-tests'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="description" value="Displays the dependent components of components in root project 'Mantis'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'Addressbook-web-tests'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'Mantis'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Gradle wrapper files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'Addressbook-web-tests'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="description" value="Displays the configuration model of root project 'Mantis'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'Addressbook-web-tests'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="description" value="Displays the tasks runnable from root project 'Mantis'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Initializes a new Gradle build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'Addressbook-web-tests'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'Mantis'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'Addressbook-web-tests'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="description" value="Displays all dependencies declared in root project 'Mantis'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'Addressbook-web-tests'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                <option name="description" value="Displays the properties of root project 'Mantis'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Mantis" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -762,14 +715,17 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/Addressbook" value="4600915195997" />
-        <entry key="$PROJECT_DIR$/Addressbook-web-tests" value="0" />
+        <entry key="$PROJECT_DIR$/Addressbook" value="4604820865378" />
         <entry key="$PROJECT_DIR$/Addressbook-web-tests/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/Addressbook-web-tests/build.gradle" value="3327890660" />
         <entry key="$PROJECT_DIR$/Addressbook-web-tests/gradle/wrapper/gradle-wrapper.properties" value="2371942159" />
         <entry key="$PROJECT_DIR$/Addressbook/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/Addressbook/build.gradle" value="3413109325" />
+        <entry key="$PROJECT_DIR$/Addressbook/build.gradle" value="1982069787" />
         <entry key="$PROJECT_DIR$/Addressbook/gradle/wrapper/gradle-wrapper.properties" value="2371942159" />
+        <entry key="$PROJECT_DIR$/Mantis" value="4608809361208" />
+        <entry key="$PROJECT_DIR$/Mantis/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/Mantis/build.gradle" value="1746850492" />
+        <entry key="$PROJECT_DIR$/Mantis/gradle/wrapper/gradle-wrapper.properties" value="2371942159" />
         <entry key="$PROJECT_DIR$/Sandbox" value="4600295639617" />
         <entry key="$PROJECT_DIR$/Sandbox/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/Sandbox/build.gradle" value="1002868723" />
@@ -946,21 +902,21 @@
             </ExternalProjectBuildClasspathPojo>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/Addressbook-web-tests">
+        <entry key="$PROJECT_DIR$/Mantis">
           <value>
             <ExternalProjectBuildClasspathPojo>
               <option name="modulesBuildClasspath">
                 <map>
-                  <entry key="$PROJECT_DIR$/Addressbook-web-tests">
+                  <entry key="$PROJECT_DIR$/Mantis">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/Addressbook-web-tests" />
+                        <option name="path" value="$PROJECT_DIR$/Mantis" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
                 </map>
               </option>
-              <option name="name" value="Addressbook-web-tests" />
+              <option name="name" value="Mantis" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/announce" />
@@ -1287,7 +1243,7 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$/Addressbook" value="RE_IMPORT" />
-        <entry key="$PROJECT_DIR$/Addressbook-web-tests" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/Mantis" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/Sandbox" value="RE_IMPORT" />
       </map>
     </option>
@@ -1303,7 +1259,6 @@
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/GroupDeletionTests.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/TestBase.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/Addressbook/build.gradle" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/HelperBase.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/SessionHelper.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Model/ContactData.java" />
@@ -1311,16 +1266,23 @@
         <option value="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Rectangle.java" />
         <option value="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/MyFirstProgram.java" />
         <option value="$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Collections.java" />
-        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupDeletionTests.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupCreationTests.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/NavigationHelper.java" />
-        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/GroupHelper.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactCreationTests.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ContactHelper.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupModificationTests.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactModificationTests.java" />
         <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactDeletionTests.java" />
+        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupModificationTests.java" />
+        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Model/GroupData.java" />
+        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupDeletionTests.java" />
+        <option value="$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/GroupHelper.java" />
+        <option value="$PROJECT_DIR$/Addressbook/build.gradle" />
+        <option value="$PROJECT_DIR$/Mantis/build.gradle" />
+        <option value="$PROJECT_DIR$/Mantis/local.properties" />
+        <option value="$PROJECT_DIR$/Mantis/src/test/java/mst/mantis/tests/Tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/Mantis/src/test/java/mst/mantis/AppManager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/Mantis/src/test/java/mst/mantis/tests/TestBase.java" />
       </list>
     </option>
   </component>
@@ -1336,6 +1298,26 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MalformedFormatString</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -1344,6 +1326,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1353,82 +1336,88 @@
             </path>
             <path>
               <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mantis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mantis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mantis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mantis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mantis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="mantis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mantis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mantis" type="462c0819:PsiDirectoryNode" />
               <item name="AppManager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mantis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="mantis" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/MetalStyler/Documents/GitHub/Java_mst/Addressbook/src/test/java/mst/addressbook/Tests/GroupCreationTests.java" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Sandbox/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Addressbook/build.gradle" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mantis/build.gradle" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15239887" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mst.addressbook.AppManager" />
+      <recent name="mst.addressbook" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="mst.sandbox" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MetalStyler\Documents\GitHub\Java_mst\Sandbox\src\main\java\mst\sandbox" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mst.mantis.AppManager" />
+      <recent name="mst.mantis.tests" />
       <recent name="mst.addressbook.Model" />
       <recent name="mst.addressbook.AppManager" />
       <recent name="mst.addressbook.Tests" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="mst.addressbook.AppManager" />
-      <recent name="mst.addressbook" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MetalStyler\Documents\GitHub\Java_mst\Mantis" />
+      <recent name="C:\Users\MetalStyler\Documents\GitHub\Java_mst\Sandbox\src\main\java\mst\sandbox" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1443,7 +1432,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Testset">
+  <component name="RunManager" selected="TestNG.GroupDeletionTests">
     <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mst.sandbox.Collections" />
       <module name="Sandbox_main" />
@@ -1706,12 +1695,12 @@
       <item itemvalue="TestNG.GroupDeletionTests" />
       <item itemvalue="TestNG.ContactModificationTests" />
       <item itemvalue="TestNG.ContactDeletionTests" />
+      <item itemvalue="TestNG.Testset" />
       <item itemvalue="Application.MyFirstProgram" />
       <item itemvalue="Application.Collections" />
       <item itemvalue="Gradle.SquareTests" />
       <item itemvalue="Gradle.SquareTests.testArea" />
       <item itemvalue="Gradle.GroupCreationTests" />
-      <item itemvalue="TestNG.Testset" />
     </list>
     <recent_temporary>
       <list>
@@ -1737,35 +1726,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupDeletionTests - 2018.09.04 at 16h 26m 41s.xml">
+    <history-entry file="GroupDeletionTests - 2018.09.05 at 11h 05m 08s.xml">
       <configuration name="GroupDeletionTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactCreationTests - 2018.09.04 at 16h 39m 41s.xml">
-      <configuration name="ContactCreationTests" configurationId="TestNG" />
+    <history-entry file="GroupCreationTests - 2018.09.05 at 11h 08m 28s.xml">
+      <configuration name="GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactCreationTests - 2018.09.04 at 16h 41m 28s.xml">
-      <configuration name="ContactCreationTests" configurationId="TestNG" />
+    <history-entry file="GroupCreationTests - 2018.09.05 at 11h 08m 39s.xml">
+      <configuration name="GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactCreationTests - 2018.09.04 at 16h 42m 08s.xml">
-      <configuration name="ContactCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreationTests - 2018.09.04 at 16h 50m 11s.xml">
-      <configuration name="ContactCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupDeletionTests - 2018.09.04 at 16h 50m 18s.xml">
+    <history-entry file="GroupDeletionTests - 2018.09.05 at 11h 08m 48s.xml">
       <configuration name="GroupDeletionTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactModificationTests - 2018.09.04 at 16h 50m 37s.xml">
-      <configuration name="ContactModificationTests" configurationId="TestNG" />
+    <history-entry file="GroupDeletionTests - 2018.09.05 at 11h 09m 41s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactDeletionTests - 2018.09.04 at 16h 50m 54s.xml">
-      <configuration name="ContactDeletionTests" configurationId="TestNG" />
+    <history-entry file="GroupDeletionTests - 2018.09.05 at 11h 16m 13s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactDeletionTests - 2018.09.04 at 16h 51m 41s.xml">
-      <configuration name="ContactDeletionTests" configurationId="TestNG" />
+    <history-entry file="GroupDeletionTests - 2018.09.05 at 11h 17m 01s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactDeletionTests - 2018.09.04 at 16h 53m 36s.xml">
-      <configuration name="ContactDeletionTests" configurationId="TestNG" />
+    <history-entry file="GroupDeletionTests - 2018.09.05 at 11h 29m 53s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTests - 2018.09.05 at 11h 30m 01s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTests - 2018.09.05 at 11h 49m 52s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1781,7 +1770,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28624734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1789,7 +1778,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32925472" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1810,6 +1799,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupDeletionTests.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -1832,20 +1833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1863,68 +1854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Model/GroupData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Model/ContactData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#1926#1927#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
-            <element signature="e#2115#2116#0" expanded="true" />
-            <element signature="e#2145#2146#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2275#2276#0" expanded="true" />
-            <element signature="e#2311#2312#0" expanded="true" />
-            <element signature="e#2338#2339#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-            <element signature="e#2426#2427#0" expanded="true" />
-            <element signature="e#2454#2455#0" expanded="true" />
-            <element signature="e#2487#2488#0" expanded="true" />
-            <element signature="e#2516#2517#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
-            <element signature="e#2613#2614#0" expanded="true" />
-            <element signature="e#2644#2645#0" expanded="true" />
-            <element signature="e#2679#2680#0" expanded="true" />
-            <element signature="e#2710#2711#0" expanded="true" />
-            <element signature="e#2747#2748#0" expanded="true" />
-            <element signature="e#2776#2777#0" expanded="true" />
-            <element signature="e#2808#2809#0" expanded="true" />
-            <element signature="e#2836#2837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Collections">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Collections" />
     <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mst/sandbox/Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1939,9 +1869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1979,26 +1906,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/IsElementPresent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/IsElementPresent.java" />
     <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2013,114 +1928,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/GroupHelper.java">
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Model/ContactData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="55" column="59" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="34" column="61" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1489#1500#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupCreationTests.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupModificationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="68" lean-forward="true" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupDeletionTests.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mantis/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mantis/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mantis/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-979" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Model/GroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="58" />
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mantis/src/test/java/mst/mantis/AppManager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/GroupModificationTests.java">
+    <entry file="file://$PROJECT_DIR$/Mantis/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/Mantis/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="34" column="61" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ContactHelper.java">
+    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/AppManager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#2132#2133#0" expanded="true" />
-            <element signature="e#2194#2195#0" expanded="true" />
-            <element signature="e#2675#2688#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactModificationTests.java">
+    <entry file="file://$PROJECT_DIR$/Mantis/src/test/java/mst/mantis/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook/src/test/java/mst/addressbook/Tests/ContactDeletionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2170,11 +2131,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Addressbook</last-edited>
+          <last-edited>Mantis_test|Mantis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -2198,7 +2160,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.4031008" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

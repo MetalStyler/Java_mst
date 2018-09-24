@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Addressbook.iml" filepath="$PROJECT_DIR$/.idea/modules/Addressbook.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Addressbook_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Addressbook_main.iml" group="Addressbook" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Addressbook_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Addressbook_test.iml" group="Addressbook" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mantis.iml" filepath="$PROJECT_DIR$/.idea/modules/Mantis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mantis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mantis_main.iml" group="Mantis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mantis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mantis_test.iml" group="Mantis" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/Sandbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sandbox_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Sandbox_main.iml" group="Sandbox" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sandbox_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Sandbox_test.iml" group="Sandbox" />
