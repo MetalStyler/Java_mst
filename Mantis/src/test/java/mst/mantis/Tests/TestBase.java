@@ -1,4 +1,4 @@
-package mst.mantis.tests;
+package mst.mantis.Tests;
 
 import mst.mantis.AppManager.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
