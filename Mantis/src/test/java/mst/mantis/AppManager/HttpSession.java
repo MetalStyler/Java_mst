@@ -28,8 +28,6 @@ public class HttpSession {
         HttpPost post_login = new HttpPost(app.getProperty("web.baseUrl") + "/login.php");
         List<NameValuePair> params_login = new ArrayList<>();
         params_login.add(new BasicNameValuePair("username", username));
-//        params.add(new BasicNameValuePair("password", password));
-//        params.add(new BasicNameValuePair("secure_session", "on"));
         params_login.add(new BasicNameValuePair("return", "index.php"));
         post_login.setEntity(new UrlEncodedFormEntity(params_login));
         CloseableHttpResponse response_login = httpclient.execute(post_login);
@@ -43,8 +41,6 @@ public class HttpSession {
         CloseableHttpResponse response_pass = httpclient.execute(post_pass);
 
         String body = getTextFrom(response_pass);
-        System.out.println(post_pass);
-//        System.out.println(body);
         return body.contains(String.format("<a href=\"/mantisbt-2.17.0/account_page.php\">%s</a>", username));
     }
 
